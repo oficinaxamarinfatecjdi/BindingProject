@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BindingProject"
+             x:Class="BindingProject.MainPage">
+
+    <StackLayout Padding="10, 0" BackgroundColor="Gray">
+        <Button Text="Binding por Código XAML" Clicked="BindingXaml_Clicked"/>
+        <Button Text="Binding por Código C#" Clicked="BindingCSharp_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
